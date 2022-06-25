@@ -15,7 +15,7 @@ KONFIGURASI
 OR
 => git config --local user.name "Wahyu Seto" (Jangan lupa masuk ke Local Repository terlebih dahulu)
 
-=> git config --local user.email "inboxseto@gmail.com"
+=> git config --local user.email "contohemail@gmail.com"
 
 => git config --global core.editor "C:\Program Files\Microsoft VS Code\code.exe"
 
