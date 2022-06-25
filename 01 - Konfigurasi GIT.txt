@@ -1,0 +1,13 @@
+Note:
+
+// --global artinya konfigurasi akan berlaku untuk semua direktori yg ada di pc
+// Jika hanya ingin konfigurasi pada suatu repository harus masuk kedalam repository tersebut kemudian menggunakan perintah --local
+    => git config --global user.name "Wahyu Seto"
+// Email di sini adalah email yg digunakan pada akun github/gitlab/gitbucket dll
+    => git config --global user.email "inboxseto@gmail.com"
+// Untuk melihat konfigurasi yg telah dibuat
+    => git config --list
+// Untuk quit
+    => q
+// Konfigurasi default editor (contoh local)
+    => git config --local core.editor "C:\Program Files\Microsoft VS Code\code.exe"
