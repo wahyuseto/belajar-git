@@ -3,9 +3,9 @@ Catatan Perintah Pada GIT
 ====================================================
 
 
-KONFIGURASI
+Configuration
 ====================================================
-- Cek konfigurasi
+- Check configuration
 => git config --list
 
 - Quit
@@ -22,19 +22,34 @@ OR
 
 Workflow / Lifecycle GIT
 ====================================================
-- Create local repository
+- Create Local Repository
 => git init
 
 - Check Status
 => git status
 
-- Initialize file to staging
+- Initialize file to Staging
 => git add .                (All)
 OR
 => git add filename.ext     (One file)
 
-- Save to local repository
+- Save to Local Repository
 => git commit -m "This is a message"
 
 - Initialize then Save
 => git commit -am "This is a message"
+
+
+- Clonning Remote Repository to PC
+=> git clone https://github.com/yourrepository/belajar-git.git
+
+- Connecting Remote Repository with Local Repository (HTTP)
+=> git remote add origin https://github.com/yourrepository/belajar-git.git
+
+- Check remote status
+=> git remote -v
+
+- Save to Remote Repository
+=> git push origin master
+OR
+=> git push

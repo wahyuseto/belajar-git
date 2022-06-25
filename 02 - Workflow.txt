@@ -34,7 +34,7 @@ Ini sama dengan add kemudian commit
 
 2 ======================================================================================
 ========================================================================================
-=> git remote add origin https://github.com/wahyuseto/belajar-git.git
+=> git remote add origin https://github.com/yourrepository/belajar-git.git
 Mengkoneksikan Remote Repository dengan Local repository
 Contoh menggunakan HTTP
 
@@ -48,5 +48,5 @@ master adalah branchnya
 
 
 
-=> git clone https://github.com/wahyuseto/belajar-git.git
+=> git clone https://github.com/yourrepository/belajar-git.git
 untuk download Remote Repository
