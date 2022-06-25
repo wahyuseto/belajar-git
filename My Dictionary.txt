@@ -53,3 +53,25 @@ OR
 => git push origin master
 OR
 => git push
+
+
+
+Perintah git pull akan mengambil commit terbaru lalu otomatis menggabungkan (merge) dengan branch yang aktif.
+Sedangkan git fetch akan mengambil commit saja. Perintah git fetch tidak akan langsung melakukan merge.
+
+Kenapa menggunakan git fetch?
+Karena untuk mencegah terjadinya bentrok.
+
+Perintah git fetch akan mengambil commit terbaru dan menyimpannya di branch origin/master.
+Sedangkan apabila kita tidak pernah melakukan apa-apa di lokal repository, kita bisa menggunakan git pull.
+
+- Update Local Repository file from Remote Repository
+=> git fetch origin master
+
+- Update Local Repository then Merge file from Remote Repository
+=> git pull origin master
+
+- Show history
+=> git log
+OR
+=> git log --oneline

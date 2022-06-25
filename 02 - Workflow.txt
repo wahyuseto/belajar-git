@@ -50,3 +50,11 @@ master adalah branchnya
 
 => git clone https://github.com/yourrepository/belajar-git.git
 untuk download Remote Repository
+
+
+
+PULL & FETCH
+================================
+================================
+Perintah git pull akan mengambil commit terbaru lalu otomatis menggabungkan (merge) dengan branch yang aktif.
+Sedangkan git fetch akan mengambil commit saja. Perintah git fetch tidak akan langsung melakukan merge.
