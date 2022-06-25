@@ -27,6 +27,10 @@ Artinya perubahan file tersebut sudah dikenali oleh git tetapi belum disimpan pa
 Untuk menyimpan file pada Local Repository
 
 
+=> git commit -am "Pesan perubahan file"
+Untuk menambahkan sekaligus menyimpan perubahan file ke Local direktori
+Ini sama dengan add kemudian commit
+
 
 2 ======================================================================================
 ========================================================================================
