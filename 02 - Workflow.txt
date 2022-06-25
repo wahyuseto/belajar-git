@@ -28,7 +28,7 @@ Untuk menyimpan file pada Local Repository
 
 
 => git commit -am "Pesan perubahan file"
-Untuk menambahkan sekaligus menyimpan perubahan file ke Local direktori
+Untuk menambahkan sekaligus menyimpan perubahan file ke Local Repository
 Ini sama dengan add kemudian commit
 
 
