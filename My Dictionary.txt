@@ -89,3 +89,14 @@ Sedangkan apabila kita tidak pernah melakukan apa-apa di lokal repository, kita 
 => git log
 OR
 => git log --oneline
+
+- Alias
+- Contoh membuat alias history
+=> git config --global alias.myhistory "git log --oneline"
+=> git myhistory
+
+- Ignore
+- Agar git tidak tracking file tertentu
+=> Membuat file dengan nama .gitignore (wajib)
+=> contoh ignore extensi html, maka ketik .html
+=> kemudian commit & push, maka setelah itu git tidak akan membaca file html
