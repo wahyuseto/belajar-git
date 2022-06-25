@@ -40,3 +40,9 @@ Untuk mengecek remote
 => git push origin master
 Untuk upload file dari Local Repository ke Remote Repository
 master adalah branchnya
+
+
+
+
+=> git clone https://github.com/wahyuseto/belajar-git.git
+untuk download Remote Repository
