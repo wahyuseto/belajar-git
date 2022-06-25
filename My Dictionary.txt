@@ -39,7 +39,6 @@ OR
 - Initialize then Save
 => git commit -am "This is a message"
 
-
 - Clonning Remote Repository to PC
 => git clone https://github.com/yourrepository/belajar-git.git
 
@@ -53,6 +52,17 @@ OR
 => git push origin master
 OR
 => git push
+
+
+Cancel Changes
+====================================================
+- Kondisi belum di add atau belum ditambahkan ke staging
+=> git checkout filename.ext
+OR
+=> git restore filename.ext
+
+- Kondisi sudah ditambahkan ke dalam staging
+=> git reset head filename.ext
 
 
 
