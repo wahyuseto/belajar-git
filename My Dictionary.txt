@@ -1,1 +1,40 @@
 Catatan Perintah Pada GIT
+====================================================
+====================================================
+
+
+KONFIGURASI
+====================================================
+- Cek konfigurasi
+=> git config --list
+
+- Quit
+=> q
+
+=> git config --global user.name "Wahyu Seto"
+OR
+=> git config --local user.name "Wahyu Seto" (Jangan lupa masuk ke Local Repository terlebih dahulu)
+
+=> git config --local user.email "inboxseto@gmail.com"
+
+=> git config --global core.editor "C:\Program Files\Microsoft VS Code\code.exe"
+
+
+Workflow / Lifecycle GIT
+====================================================
+- Create local repository
+=> git init
+
+- Check Status
+=> git status
+
+- Initialize file to staging
+=> git add .                (All)
+OR
+=> git add filename.ext     (One file)
+
+- Save to local repository
+=> git commit -m "This is a message"
+
+- Initialize then Save
+=> git commit -am "This is a message"
