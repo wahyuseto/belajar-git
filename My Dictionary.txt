@@ -66,6 +66,8 @@ OR
 
 - Kondisi sudah di commit
 => git commit --amend (Jika hanya ingin mengubah pesan commitnya saja)
+=> git reset --soft HEAD^ (Mengembalikan ke staging)
+=> git reset --hard HEAD^ (Mengembalikan ke awal sebelum di commit)
 
 
 Perintah git pull akan mengambil commit terbaru lalu otomatis menggabungkan (merge) dengan branch yang aktif.
