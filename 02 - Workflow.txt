@@ -1,0 +1,27 @@
+1. LOCAL
+    a -> Working Directory (Source Code)
+        b -> Staging
+            c -> Local Repository
+2. REMOTE
+    -> github, gitlab, gitbucket
+
+
+=> git init
+Untuk memulai project harus membuat repository terlebih dahulu
+Hasilnya akan seperti ini
+Reinitialized existing Git repository in C:/Users/Documents/SETO/belajar-git/.git/
+
+=> git status
+Untuk melihat status
+Jika ada perubahan, penambahan, penhapusan sebuah file maka akan terlihat ketika git status
+Jika filenya berwarna merah atau keterangannya untracked file artinya file tersebut belum diketahui oleh git
+
+=> git add . (akan menambahkan semua file atau perubahan pada direktori project)
+=> git add contoh.html (hanya menambahkan file tertentu pada direktori project)
+Untuk menambahkan file ke dalam Staging, jika filenya sudah berwarna hijau atau keterangannya Changes to be committed
+Artinya perubahan file tersebut sudah dikenali oleh git tetapi belum disimpan pada Local Repository
+
+=> git commit -m "Pesan perubahan file"
+Untuk menyimpan file pada Local Repository
+
+
