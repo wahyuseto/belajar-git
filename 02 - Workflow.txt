@@ -6,6 +6,8 @@
     -> github, gitlab, gitbucket
 
 
+1 ======================================================================================
+========================================================================================
 => git init
 Untuk memulai project harus membuat repository terlebih dahulu
 Hasilnya akan seperti ini
@@ -25,3 +27,16 @@ Artinya perubahan file tersebut sudah dikenali oleh git tetapi belum disimpan pa
 Untuk menyimpan file pada Local Repository
 
 
+
+2 ======================================================================================
+========================================================================================
+=> git remote add origin https://github.com/wahyuseto/belajar-git.git
+Mengkoneksikan Remote Repository dengan Local repository
+Contoh menggunakan HTTP
+
+=> git remote -v
+Untuk mengecek remote
+
+=> git push origin master
+Untuk upload file dari Local Repository ke Remote Repository
+master adalah branchnya
