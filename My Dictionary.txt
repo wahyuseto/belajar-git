@@ -64,6 +64,8 @@ OR
 - Kondisi sudah ditambahkan ke dalam staging
 => git reset head filename.ext
 
+- Kondisi sudah di commit
+=> git commit --amend (Jika hanya ingin mengubah pesan commitnya saja)
 
 
 Perintah git pull akan mengambil commit terbaru lalu otomatis menggabungkan (merge) dengan branch yang aktif.
