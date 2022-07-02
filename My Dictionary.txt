@@ -100,3 +100,8 @@ OR
 => Membuat file dengan nama .gitignore (wajib)
 => contoh ignore extensi html, maka ketik .html
 => kemudian commit & push, maka setelah itu git tidak akan membaca file html
+
+
+
+Comparisons
+====================================================
